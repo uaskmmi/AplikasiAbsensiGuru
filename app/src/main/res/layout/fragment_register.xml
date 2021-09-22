@@ -45,6 +45,7 @@
                     android:src="@drawable/ic_baseline_account_circle_24" />
 
                 <EditText
+                    android:id="@+id/ET_NIP"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -73,12 +74,13 @@
                     android:src="@drawable/ic_baseline_mode_edit_24" />
 
                 <EditText
+                    android:id="@+id/ET_NAMA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="Nama Lengkap"
                     android:imeOptions="actionNext"
-                    android:inputType="number"
+                    android:inputType="textPersonName"
                     android:padding="10dp"
                     android:singleLine="true"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -101,6 +103,7 @@
                     android:src="@drawable/ic_baseline_vpn_key_24" />
 
                 <EditText
+                    android:id="@+id/ET_PASSWORD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -146,6 +149,7 @@
 
 
         <Button
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -155,7 +159,8 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+            tools:ignore="UsingOnClickInXml" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

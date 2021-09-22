@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/drawable/background.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/activity_dashboard.xml" value="0.20833333333333334" />
         <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/fragment_login.xml" value="0.20833333333333334" />
-        <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/fragment_register.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/AndroidProject/UASKMMI/AplikasiAbsensiGuru/app/src/main/res/layout/fragment_register.xml" value="0.2" />
       </map>
     </option>
   </component>
